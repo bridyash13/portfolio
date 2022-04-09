@@ -49,8 +49,8 @@ const Project = () => {
           <div class="proj_title">
             Olympics Event Management
             <div class="proj_desc">
-              Website which provides real-time crowd updates of public places,
-              tourist locations and places people visit frequently.<br></br>
+            A sports event management website where users get details of various
+            sporting events and hosts can host them.<br></br>
               <a
                 href="https://github.com/bridyash13/Krowd-Kam"
                 target="_blank"
