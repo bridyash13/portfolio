@@ -1,0 +1,49 @@
+.projects_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.project{
+    height: fit-content;
+}
+
+.project:hover{
+    background: transparent;
+    cursor: default;
+}
+
+.project_head{
+    padding: 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    background-image: url(../../images/olymp.jpg);
+    height: 100vh;
+}
+
+.project_head{
+    color: var(--color-bg);
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .projects_container{
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .project{
+        height: auto;
+    }
+  }
+  
+  /* MEDIA QUERIES (MEDIUM DEVICES) */
+  @media screen and (max-width: 600px) {
+    .projects_container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+  }
+  
