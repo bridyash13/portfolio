@@ -52,7 +52,7 @@ const Project = () => {
             A sports event management website where users get details of various
             sporting events and hosts can host them.<br></br>
               <a
-                href="https://github.com/bridyash13/Krowd-Kam"
+                href="https://github.com/bridyash13/Olympics-Django"
                 target="_blank"
                 rel="noreferrer noopener"
               >
